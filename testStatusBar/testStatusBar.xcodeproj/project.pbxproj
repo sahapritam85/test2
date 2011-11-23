@@ -1,0 +1,292 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5EB28F26145EB67700572BCF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5EB28F25145EB67700572BCF /* UIKit.framework */; };
+		5EB28F28145EB67700572BCF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5EB28F27145EB67700572BCF /* Foundation.framework */; };
+		5EB28F2A145EB67700572BCF /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5EB28F29145EB67700572BCF /* CoreGraphics.framework */; };
+		5EB28F30145EB67700572BCF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5EB28F2E145EB67700572BCF /* InfoPlist.strings */; };
+		5EB28F32145EB67700572BCF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EB28F31145EB67700572BCF /* main.m */; };
+		5EB28F36145EB67700572BCF /* pritam_AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EB28F35145EB67700572BCF /* pritam_AppDelegate.m */; };
+		5EB28F39145EB67700572BCF /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5EB28F37145EB67700572BCF /* MainStoryboard.storyboard */; };
+		5EB28F3C145EB67700572BCF /* pritam_ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EB28F3B145EB67700572BCF /* pritam_ViewController.m */; };
+		5EB28F47145EB7A000572BCF /* MTStatusBarOverlay.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EB28F46145EB7A000572BCF /* MTStatusBarOverlay.m */; };
+		5EB28F49145EB90D00572BCF /* statusbar_background.png in Resources */ = {isa = PBXBuildFile; fileRef = 5EB28F48145EB90D00572BCF /* statusbar_background.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5EB28F21145EB67700572BCF /* testStatusBar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = testStatusBar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5EB28F25145EB67700572BCF /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		5EB28F27145EB67700572BCF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		5EB28F29145EB67700572BCF /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		5EB28F2D145EB67700572BCF /* testStatusBar-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "testStatusBar-Info.plist"; sourceTree = "<group>"; };
+		5EB28F2F145EB67700572BCF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		5EB28F31145EB67700572BCF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5EB28F33145EB67700572BCF /* testStatusBar-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "testStatusBar-Prefix.pch"; sourceTree = "<group>"; };
+		5EB28F34145EB67700572BCF /* pritam_AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = pritam_AppDelegate.h; sourceTree = "<group>"; };
+		5EB28F35145EB67700572BCF /* pritam_AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = pritam_AppDelegate.m; sourceTree = "<group>"; };
+		5EB28F38145EB67700572BCF /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		5EB28F3A145EB67700572BCF /* pritam_ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = pritam_ViewController.h; sourceTree = "<group>"; };
+		5EB28F3B145EB67700572BCF /* pritam_ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = pritam_ViewController.m; sourceTree = "<group>"; };
+		5EB28F45145EB7A000572BCF /* MTStatusBarOverlay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTStatusBarOverlay.h; sourceTree = "<group>"; };
+		5EB28F46145EB7A000572BCF /* MTStatusBarOverlay.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTStatusBarOverlay.m; sourceTree = "<group>"; };
+		5EB28F48145EB90D00572BCF /* statusbar_background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = statusbar_background.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5EB28F1E145EB67700572BCF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5EB28F26145EB67700572BCF /* UIKit.framework in Frameworks */,
+				5EB28F28145EB67700572BCF /* Foundation.framework in Frameworks */,
+				5EB28F2A145EB67700572BCF /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5EB28F16145EB67700572BCF = {
+			isa = PBXGroup;
+			children = (
+				5EB28F2B145EB67700572BCF /* testStatusBar */,
+				5EB28F24145EB67700572BCF /* Frameworks */,
+				5EB28F22145EB67700572BCF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5EB28F22145EB67700572BCF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5EB28F21145EB67700572BCF /* testStatusBar.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5EB28F24145EB67700572BCF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5EB28F25145EB67700572BCF /* UIKit.framework */,
+				5EB28F27145EB67700572BCF /* Foundation.framework */,
+				5EB28F29145EB67700572BCF /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5EB28F2B145EB67700572BCF /* testStatusBar */ = {
+			isa = PBXGroup;
+			children = (
+				5EB28F34145EB67700572BCF /* pritam_AppDelegate.h */,
+				5EB28F35145EB67700572BCF /* pritam_AppDelegate.m */,
+				5EB28F3A145EB67700572BCF /* pritam_ViewController.h */,
+				5EB28F3B145EB67700572BCF /* pritam_ViewController.m */,
+				5EB28F37145EB67700572BCF /* MainStoryboard.storyboard */,
+				5EB28F2C145EB67700572BCF /* Supporting Files */,
+				5EB28F45145EB7A000572BCF /* MTStatusBarOverlay.h */,
+				5EB28F46145EB7A000572BCF /* MTStatusBarOverlay.m */,
+			);
+			path = testStatusBar;
+			sourceTree = "<group>";
+		};
+		5EB28F2C145EB67700572BCF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5EB28F48145EB90D00572BCF /* statusbar_background.png */,
+				5EB28F2D145EB67700572BCF /* testStatusBar-Info.plist */,
+				5EB28F2E145EB67700572BCF /* InfoPlist.strings */,
+				5EB28F31145EB67700572BCF /* main.m */,
+				5EB28F33145EB67700572BCF /* testStatusBar-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5EB28F20145EB67700572BCF /* testStatusBar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5EB28F3F145EB67700572BCF /* Build configuration list for PBXNativeTarget "testStatusBar" */;
+			buildPhases = (
+				5EB28F1D145EB67700572BCF /* Sources */,
+				5EB28F1E145EB67700572BCF /* Frameworks */,
+				5EB28F1F145EB67700572BCF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = testStatusBar;
+			productName = testStatusBar;
+			productReference = 5EB28F21145EB67700572BCF /* testStatusBar.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5EB28F18145EB67700572BCF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 5EB28F1B145EB67700572BCF /* Build configuration list for PBXProject "testStatusBar" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 5EB28F16145EB67700572BCF;
+			productRefGroup = 5EB28F22145EB67700572BCF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5EB28F20145EB67700572BCF /* testStatusBar */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5EB28F1F145EB67700572BCF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5EB28F30145EB67700572BCF /* InfoPlist.strings in Resources */,
+				5EB28F39145EB67700572BCF /* MainStoryboard.storyboard in Resources */,
+				5EB28F49145EB90D00572BCF /* statusbar_background.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5EB28F1D145EB67700572BCF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5EB28F32145EB67700572BCF /* main.m in Sources */,
+				5EB28F36145EB67700572BCF /* pritam_AppDelegate.m in Sources */,
+				5EB28F3C145EB67700572BCF /* pritam_ViewController.m in Sources */,
+				5EB28F47145EB7A000572BCF /* MTStatusBarOverlay.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		5EB28F2E145EB67700572BCF /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5EB28F2F145EB67700572BCF /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		5EB28F37145EB67700572BCF /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5EB28F38145EB67700572BCF /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5EB28F3D145EB67700572BCF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		5EB28F3E145EB67700572BCF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5EB28F40145EB67700572BCF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "testStatusBar/testStatusBar-Prefix.pch";
+				INFOPLIST_FILE = "testStatusBar/testStatusBar-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		5EB28F41145EB67700572BCF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "testStatusBar/testStatusBar-Prefix.pch";
+				INFOPLIST_FILE = "testStatusBar/testStatusBar-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5EB28F1B145EB67700572BCF /* Build configuration list for PBXProject "testStatusBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5EB28F3D145EB67700572BCF /* Debug */,
+				5EB28F3E145EB67700572BCF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5EB28F3F145EB67700572BCF /* Build configuration list for PBXNativeTarget "testStatusBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5EB28F40145EB67700572BCF /* Debug */,
+				5EB28F41145EB67700572BCF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5EB28F18145EB67700572BCF /* Project object */;
+}
